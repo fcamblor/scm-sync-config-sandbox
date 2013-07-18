@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
-  <version>1.480</version>
+  <version>1.409</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.AuthorizationStrategy$Unsecured"/>
-  <securityRealm class="hudson.security.SecurityRealm$None"/>
-  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
-  <workspaceDir>${ITEM_ROOTDIR}/workspace</workspaceDir>
-  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+  </securityRealm>
+  <markupFormatter class="hudson.markup.RawHtmlMarkupFormatter"/>
   <jdks/>
   <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
@@ -91,4 +90,5 @@
   <label></label>
   <nodeProperties/>
   <globalNodeProperties/>
+  <disabledAdministrativeMonitors/>
 </hudson>
