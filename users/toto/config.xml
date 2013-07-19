@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
-  <fullName>toto</fullName>
+  <fullName>renamedToto</fullName>
   <description>Une super description de mise a jour</description>
   <properties>
     <hudson.tasks.Mailer_-UserProperty>
