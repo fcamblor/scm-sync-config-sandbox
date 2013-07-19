@@ -1,7 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
   <fullName>toto</fullName>
+  <description>Une super description de mise a jour</description>
   <properties>
+    <hudson.tasks.Mailer_-UserProperty>
+      <emailAddress>toto@toto.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>tvUcsM:3cb9c4f198dcaa7a5c4fbf4ce378aa407a1f09807f284033f77f6c0d99ecd7fa</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.model.MyViewsProperty>
       <primaryViewName>All</primaryViewName>
       <views>
@@ -14,11 +21,5 @@
         </hudson.model.AllView>
       </views>
     </hudson.model.MyViewsProperty>
-    <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>tvUcsM:3cb9c4f198dcaa7a5c4fbf4ce378aa407a1f09807f284033f77f6c0d99ecd7fa</passwordHash>
-    </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty>
-      <emailAddress>toto@toto.com</emailAddress>
-    </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
